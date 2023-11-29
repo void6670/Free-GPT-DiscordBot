@@ -10,8 +10,8 @@ We welcome contributions! Feel free to contribute to the project by changing any
 Here are some tasks that need attention:
 
 - [ ] Implement embeds for a more visually appealing UI.
-- [ ] Enhance YouTube video summarization functionality.
-- [ ] Allow users to set custom system prompts.
+- [ ] Fix the YouTube video summarization functionality.
+- [ ] Allow users to set custom system prompts for better personalization.
 
 Feel free to tackle any of these tasks or add new ones!
 
