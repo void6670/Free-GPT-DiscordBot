@@ -15,6 +15,6 @@ Here are some tasks that need attention:
 
 Feel free to tackle any of these tasks or add new ones!
 
-We appreciate your interest and contributions!
+We appreciate your interest and contributions, if you like this please give this repo a ⭐, it helps a lot.
 
 Happy coding! 🚀
