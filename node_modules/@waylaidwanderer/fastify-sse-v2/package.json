@@ -1,0 +1,52 @@
+{
+    "name": "@waylaidwanderer/fastify-sse-v2",
+    "version": "3.1.0",
+    "description": "Fastify plugin for sending server side events.",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib",
+        "src"
+    ],
+    "scripts": {
+        "test": "mocha -r ts-node/register test/**/*.spec.ts",
+        "clean": "rm -rf lib",
+        "lint": "eslint src/",
+        "check-types": "tsc --noEmit",
+        "prepublishOnly": "yarn run build",
+        "prebuild": "yarn run clean",
+        "build": "tsc -p tsconfig.build.json --outDir lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/waylaidwanderer/fastify-sse-v2.git"
+    },
+    "author": "Marin Petrunić <marin@nodefactory.io>",
+    "license": "MIT",
+    "homepage": "https://github.com/waylaidwanderer/fastify-sse-v2#readme",
+    "devDependencies": {
+        "@chainsafe/eslint-config": "^1.1.0",
+        "@rushstack/eslint-patch": "^1.2.0",
+        "@types/chai": "^4.1.7",
+        "@types/eventsource": "^1.1.2",
+        "@types/mocha": "^8.2.2",
+        "@types/node": "^16.0.0",
+        "@types/sinon": "^9.0.0",
+        "chai": "^4.2.0",
+        "eslint": "8.28.0",
+        "eventsource": "^1.0.7",
+        "fastify": "^4.10.2",
+        "mocha": "^8.3.2",
+        "sinon": "^9.0.2",
+        "ts-node": "^8.3.0",
+        "typescript": "~4.7"
+    },
+    "dependencies": {
+        "fastify-plugin": "^4.3.0",
+        "it-pushable": "^1.4.2",
+        "it-to-stream": "^1.0.0"
+    },
+    "peerDependencies": {
+        "fastify": ">=4"
+    }
+}
