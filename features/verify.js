@@ -5,7 +5,7 @@
 */
 
 function verifyProcessable(content) {
-  const cond = content.startsWith("Please daddy") ||
+  const cond = content.startsWith("what is this) ||
     (content.startsWith("<") && content.endsWith(">")) ||
     content.startsWith("[TrollGPT") ||
     content.startsWith('https://') ||
