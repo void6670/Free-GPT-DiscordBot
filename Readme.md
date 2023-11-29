@@ -16,7 +16,7 @@ Here are some tasks that need attention:
 - [ ] Enhance YouTube video summarization functionality.
 - [ ] Allow users to set custom system prompts.
 
-Feel free to tackle any of these tasks or suggest new ideas!
+Feel free to tackle any of these tasks or add new ones!
 
 We appreciate your interest and contributions!
 
