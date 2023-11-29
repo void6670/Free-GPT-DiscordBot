@@ -112,12 +112,12 @@ keepAlive();
 setInterval(() => deleteSession(true, 0), 10 * 60 * 1000);
 setInterval(() => deleteSession(false, 69), 10 * 60 * 60 * 1000);
 
-const token = 'MTA3NzE0MjgwNjMxOTA4MzU1MQ.GDvjKz.1iPzeKoI-d2rrFywl1p4VRLm3OdJzstOQ6Xe5o';
+const token = 'BotTokenHere';
 
 // Check if the token exists
 
 if (!token) {
-  console.error("You dumbass, where's your token?");
+  console.error("You dumbo, where's your token?");
   process.exit(1);
 }
 
