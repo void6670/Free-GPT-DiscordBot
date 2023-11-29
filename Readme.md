@@ -18,10 +18,6 @@ Here are some tasks that need attention:
 
 Feel free to tackle any of these tasks or suggest new ideas!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 We appreciate your interest and contributions!
 
 Happy coding! 🚀
