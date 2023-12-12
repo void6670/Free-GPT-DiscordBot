@@ -20,7 +20,7 @@
 
 ## 💡 Suggest a Feature
 
-We welcome your ideas! If you have a feature in mind that would improve FreeGPT, please for this repo and make a pull req to submitt your changes.
+We welcome your ideas! If you have a feature in mind that would improve FreeGPT, please for this repo and make a pull req to submit your changes.
 
 ## 🌐 Connect with Us
 
