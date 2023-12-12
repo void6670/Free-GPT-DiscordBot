@@ -4,6 +4,7 @@ This is the code for the bot, its kind of a mess since me and one of my friends 
 ## Contributing
 
 We welcome contributions! Feel free to contribute to the project by changing anything that you think would be an improvement or a feature the bot should have. Simply make a pull request after you are done and i will update the bot within 24h depending on how busy iam.
+More info in [CONTRIBUTING.md](https://github.com/void6670/Free-GPT-DiscordBot/blob/main/CONTRIBUTING.md)
 
 ## To-Do
 
