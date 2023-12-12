@@ -4,7 +4,7 @@ const { append, retrieve } = require('./history');
 
 const bannedUsers = ["", ""];
 async function makeRequest(prompt, userID) {
-  const url = 'https://api.openai.com/v1/chat/completions';
+  const url = process.env.ENDPOINT;
   const data = {
     frequency_penalty: 0,
     max_tokens: 2000,
@@ -35,7 +35,7 @@ async function makeRequest(prompt, userID) {
     'Content-Type': 'application/json',
     'User-Agent':
       userAgents[Math.floor(Math.random() * userAgents.length)],
-    'Authorization': "Bearer ..."
+    'Authorization': 'Bearer ${process.env.KEY}'
   };
 
   try {
